@@ -1,0 +1,148 @@
+.Block{
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px 20px;
+    font-size: 26px;
+    font-family: Arial;
+    text-align: left;
+    margin: 20px 30px;
+}
+
+.Center{
+    display: block;
+    margin: 5px auto;
+}
+
+.Inline{
+    display: inline-block;
+    flex-direction: column;
+    margin: 5px 5px;
+}
+
+.Color{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    background-color: #7B5DAD;
+}
+
+
+
+
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid white; /* rgba(217,140,144,1) */
+    font-size:  12pt;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+    td,
+    th {
+    border: 1px solid white;
+    padding: 2px 8px;
+    }
+  
+    .flipswitch
+    {
+        position: relative;
+        background: white;
+        width: 120px;
+        height: 20px;
+        -webkit-appearance: initial;
+        border-radius: 3px;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        outline:none;
+        font-size: 14px;
+        font-family: Trebuchet, Arial, sans-serif;
+        font-weight: bold;
+        cursor:pointer;
+        border:1px solid #ddd;
+    }
+    .flipswitch:after
+    {
+        position:absolute;
+        top:5%;
+        display:block; 
+        line-height:16px;
+        width:45%;
+        height:90%;
+        background:#fff;
+        box-sizing:border-box;
+        text-align:center;
+        transition: all 0.3s ease-in 0s; 
+        color:rgba(159,53,58,1);
+        border:#888 1px solid;
+        border-radius:3px;
+    }
+    .flipswitch:after
+    {
+        left:2%;
+        content: "未完成";
+    }
+    .flipswitch:checked:after
+    {
+        left:53%;
+        content: "完成";
+    }
+  
+    body {
+      background-color: rgb(106, 76, 156); /* #6A4C9C */
+      color: rgb(106, 76, 156);
+      font-family: 'Noto Serif JP', serif;
+    }
+  
+    .container-fluid {
+      width:  90%;
+    }
+  
+    .hw12 {
+      border: 1px solid rgb(159, 53, 58);
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+  
+    .twenty {
+      border: 1px solid #f9eced;
+      color: #f9eced;
+      padding: 8px;
+      font-size: 16pt;
+    }
+  
+    .twenty:hover {
+        box-shadow: 0 0 5px 3px #f9eced;
+        color: cyan; 
+        text-shadow: 0 0 6px #FFFFFF, 0 0 6px #000000;
+    }
+  
+  
+    .github-corner:hover 
+    .octo-arm {
+      animation: octocat-wave 560ms ease-in-out
+    }
+    @keyframes octocat-wave {
+      0%,100% {
+        transform:rotate(0)
+      }
+      20%,60% {
+        transform:rotate(-25deg)
+      }
+      40%,80% {
+        transform:rotate(10deg)
+      }
+    }
+    @media (max-width:500px) {
+      .github-corner:hover 
+      .octo-arm {
+        animation:none
+      }
+  
+      .github-corner 
+      .octo-arm {
+        animation: octocat-wave 560ms ease-in-out
+      }
+    }
