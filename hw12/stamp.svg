@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg 
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink" 
+   version="1.1"
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100">
+  <!-- Your beautiful SVG code will go here -->
+  <rect x="0" y="0" width="100" height="100" stroke="red" stroke-width="0.5" fill="#F1EEF7"/>
+
+  <rect x="10" y="10" width="14.761" height="14.761" stroke="red" stroke-width="0.1" fill="none"/>
+  <rect x="10" y="10" width="9.6650" height="9.6650" stroke="blue" stroke-width="0.1" fill="none"/>
+  <rect x="10" y="10" width="7.3805" height="7.3805" stroke="red" stroke-width="0.1" fill="none"/>
+  <rect x="10" y="10" width="5.5350" height="5.5350" stroke="green" stroke-width="0.1" fill="none"/>
+  <rect x="10" y="10" width="4.8330" height="4.8330" stroke="blue" stroke-width="0.1" fill="none"/>
+  <rect x="10" y="10" width="3.6900" height="3.6900" stroke="red" stroke-width="0.1" fill="none"/>
+  <rect x="10" y="10" width="2.7680" height="2.7680" stroke="blue" stroke-width="0.1" fill="none"/>
+
+  <rect x="30" y="10" width="14.761" height="14.761" stroke="red" stroke-width="0.1" fill="none"/>
+  <text x="42" y="9" style="font-size:2pt;">初 42</text>
+  <rect x="30" y="10" width="7.3805" height="7.3805" stroke="red" stroke-width="0.1" fill="none"/>
+  <text x="36" y="9" style="font-size:1.5pt;">二 21</text>
+  <rect x="30" y="10" width="3.6900" height="3.6900" stroke="red" stroke-width="0.1" fill="none"/>
+  <text x="30" y="9" style="font-size:1pt;">五 10.5</text>
+
+  <rect x="50" y="10" width="9.6650" height="9.6650" stroke="blue" stroke-width="0.1" fill="none"/>
+  <text x="57" y="9" style="font-size:1.75pt;">一 27.5</text>
+  <rect x="50" y="10" width="4.8330" height="4.8330" stroke="blue" stroke-width="0.1" fill="none"/>
+  <text x="50" y="9" style="font-size:1.25pt;">四 13.75</text>
+
+  <rect x="70" y="10" width="5.5350" height="5.5350" stroke="green" stroke-width="0.1" fill="none"/>
+  <text x="75" y="9" style="font-size:1.25pt;">三 15.75</text>
+  <rect x="70" y="10" width="2.7680" height="2.7680" stroke="green" stroke-width="0.1" fill="none"/>
+  <text x="70" y="9" style="font-size:0.75pt;">六 7.875</text>
+
+  <!-- Your beautiful SVG code will end here -->
+
+  <rect x="50" y="50" width="4.8330" height="4.8330" stroke="blue" stroke-width="0.1" fill="none"/>
+  <text x="50.4" y="53.9" style="font-size:3pt;">北</text>
+  <rect x="54.833" y="50" width="4.8330" height="4.8330" stroke="blue" stroke-width="0.1" fill="none"/>
+  <text x="55.233" y="53.9" style="font-size:3pt;;">科</text>
+  <rect x="59.666" y="50" width="4.8330" height="4.8330" stroke="blue" stroke-width="0.1" fill="none"/>
+  <text x="60.066" y="53.9" style="font-size:3pt;">大</text>
+
+  <rect x="50" y="54.8330" width="9.665" height="9.665" stroke="blue" stroke-width="0.1" fill="none"/>
+  <text x="50.8" y="62.633" style="font-size:6pt;">李</text>
+
+
+  <rect x="59.666" y="54.8330" width="4.8330" height="4.8330" stroke="blue" stroke-width="0.1" fill="none"/>
+  <text x="60.066" y="58.733" style="font-size:3pt;">光</text>
+  <rect x="59.666" y="59.666" width="4.8330" height="4.8330" stroke="blue" stroke-width="0.1" fill="none"/>
+  <text x="60.066" y="63.566" style="font-size:3pt;">耀</text>
+
+
+
+
+  <text x="30" y="30" style="font-size:1.5pt;" fill="red">初號 42pt 14.761mm</text>
+  <text x="30" y="35" style="font-size:1.5pt;" fill="red">二號 21pt 7.381mm</text>
+  <text x="30" y="40" style="font-size:1.5pt;" fill="red">五號 10.5pt 3.69mm</text>
+
+  <text x="50" y="25" style="font-size:1.5pt;" fill="blue">一號 27.5pt 9.665mm</text>
+  <text x="50" y="30" style="font-size:1.5pt;" fill="blue">四號 13.75pt 4.833mm</text>
+
+  <text x="70" y="20" style="font-size:1.5pt;" fill="green">三號 15.75pt 5.536mm</text>
+  <text x="70" y="25" style="font-size:1.5pt;" fill="green">六號 7.875pt 2.768mm</text>
+
+</svg>
+
+<!-- 14.761 9.662 7.381 5.535 4.833 3.69 2.768 -->
+								
