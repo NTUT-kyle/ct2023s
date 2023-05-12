@@ -465,7 +465,8 @@
       </ul>
       -->
       <ul>
-        <li><a href="https://zidian.qianp.com/sidiezi.html" target="_blank">四叠字大全 - 汉语字典 - 千篇国学</a></li>
+        <!-- 四叠字大全 - 汉语字典 - 千篇国学 -->
+        <li><a href="https://zidian.qianp.com/sidiezi.html" target="_blank">四疊字大全 - 漢語字典 - 千篇國學</a></li>
         <li><a href="https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%A0%E5%AD%97" target="_blank">四疊字</a></li>
         <li><a href="https://www.compart.com/en/unicode/U+2A6A5" target="_blank">𪚥</a></li>
         <li><a href="https://www.compart.com/en/unicode/U+28C3B" target="_blank">𨰻</a></li>
@@ -494,10 +495,28 @@
           <td style="background-color:#36563C;">67<hr>0110 0111</td>
           <td>xx<hr>xxxx xxxx</td>
           <td>xx<hr>xxxx xxxx</td>
-        </tr>       
+        </tr>
+        <tr>
+          <td>𪚥</td>
+          <td>U+2A6A5<hr>10 1010 0110 1010 0101</td>
+          <td style="background-color:#9F353A;">69<hr>0110 1001</td> <!-- UTF-8 -->
+          <td style="background-color:#9F353A;">D8<hr>1101 1000</td>
+          <td style="background-color:#9F353A;">A5<hr>1010 0101</td>
+          <td style="background-color:#9F353A;">DE<hr>1101 1110</td>
+
+          <td style="background-color:#005CAF;">D8<hr>1101 1000</td> <!-- UTF-16 BE -->
+          <td style="background-color:#005CAF;">69<hr>0110 1001</td>
+          <td style="background-color:#005CAF;">DE<hr>1101 1110</td>
+          <td style="background-color:#005CAF;">A5<hr>1010 0101</td>
+
+          <td style="background-color:#36563C;">F0<hr>1111 0000</td> <!-- UTF-16 LE -->
+          <td style="background-color:#36563C;">AA<hr>1010 1010</td>
+          <td style="background-color:#36563C;">9A<hr>1001 1010</td>
+          <td style="background-color:#36563C;">A5<hr>1010 0101</td>
+        </tr>
         <tr>
           <td>𨰻</td>
-          <td>U+28C3B<hr>0010 1000 1100 0011 1011</td>
+          <td>U+28C3B<hr>10 1000 1100 0011 1011</td>
           <td style="background-color:#9F353A;">F0<hr>1111 0000</td> <!-- UTF-8 -->
           <td style="background-color:#9F353A;">A8<hr>1010 1000</td>
           <td style="background-color:#9F353A;">B0<hr>1011 0000</td>
@@ -519,10 +538,29 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty cjkFontsH">
-      <h1>(d) 非Unicode環境 </h1>
-      <li>在非Unicode環境下，由於不同國家和地區採用的字元集不一致，很可能出現無法正常顯示所有字元的情況。</li>
-      <li>微軟使用了頁碼（Code Page）轉換表的技術來過渡性地部分解決這一問題。</li>
-      <li>即通過指定的轉換表，將非Unicode的字元編碼，轉換為同一字元對應的系統內部使用的 Unicode編碼。</li>
+      <h1>(d) 正常顯示 C 語言程式碼中的 UTF-8 漢字。 </h1>
+      <pre>
+#include <stdio.h>
+
+int main(){
+  printf("中文\n\n");
+
+  // https://stackoverflow.com/questions/29776849/why-cant-i-print-a-unicode-character-in-c-with-wchar-t
+  wchar_t a = 0x0041;   /* A */
+  printf("%lc\n\n", a);
+
+  // https://www.ithome.com.tw/voice/135711
+  char text[] = u8"林𪚥𨰻";
+  printf("%s\n\n", text);
+
+  return 0;
+}
+      </pre>
+      <li>在非 Unicode 環境，由於不同國家採用的<u>字元集</u>不一致，可能無法正常顯示所有字元。微軟使用碼頁（Code page）轉換表，部分解決此問題。通過轉換表，將非 Unicode 的字元編碼，轉換為同一字元對應的系統內部使用的 Unicode 編碼。</li>
+      <li>chcp 950 (Big5)</li>
+      <li>chcp 65001 (UTF-8)</li>
+
+
       <li>成功後，放一張圖在這裡。</li>
       <img src="./d.png" width="768"/>
     </div>
